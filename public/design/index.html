@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <div class="logo">
+            <div class="logo1"></div>
+          </div>
+          <div class="nav-explore">
+            <span class="explore">Explore</span>
+            <span class="plus">plus</span>
+          </div>
+        </div>
+        <!-- search bar -->
+        <div class="search-bar">
+          <div class="search-logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            placeholder="Search for products,Brands and more"
+            class="search-input"
+          />
+        </div>
+        <!-- menus -->
+
+        <div class="nav-seller">
+          <i class="fa-solid fa-store"></i>
+          <div class="seller">
+            <span>Become a seller</span>
+          </div>
+        </div>
+
+        <div class="nav-sign">
+          <i class="fa-solid fa-store"></i>
+          <div class="signin">
+            <span>Sign in</span>
+          </div>
+        </div>
+
+        <div class="nav-cart">
+          <i class="fa-solid fa-store"></i>
+          <div class="cart">
+            <span>Cart</span>
+          </div>
+        </div>
+
+        <div class="nav-drop">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+
+      <div class="nav-options">
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-01"></div>
+            </div>
+            <span class="pro-1-info">Grocery</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-02"></div>
+            </div>
+            <span class="pro-1-info">Mobiles</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-03"></div>
+            </div>
+            <span class="pro-1-info">Fashion</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-04"></div>
+            </div>
+            <span class="pro-1-info">Electronics</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-05"></div>
+            </div>
+            <span class="pro-1-info">Home & Furniture</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-06"></div>
+            </div>
+            <span class="pro-1-info">Appliances</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-07"></div>
+            </div>
+            <span class="pro-1-info">Travel</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-08"></div>
+            </div>
+            <span class="pro-1-info">Beauty, Toys & More</span>
+          </div>
+        </div>
+
+        <div class="option1">
+          <div class="product1">
+            <div class="img-1">
+              <div class="logo-09"></div>
+            </div>
+            <span class="pro-1-info">Two Wheelers</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner image -->
+    <div class="banner">
+      <div class="banner-img">
+        <img src="../images/banner1.jpg" alt="banner-images" />
+        <img src="../images/banner2.jpg" alt="banner-images" />
+        <img src="../images/banner3.jpg" alt="banner-images" />
+        <img src="../images/banner4.jpg" alt="banner-images" />
+        <img src="../images/banner5.jpg" alt="banner-images" />
+        <img src="../images/banner6.jpg" alt="banner-images" />
+      </div>
+      <button class="first-btn" onclick="preview()">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button class="second-btn" onclick="next()">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+    <!-- sliding menu -->
+    <div class="menu-items">
+      <div class="pro-heading">
+        <h2>Top Deals</h2>
+      </div>
+      <div class="items">
+        <button class="move">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/c/f/l/-original-imagqfwadb7qntrb.jpeg?q=90&crop=false"
+            alt="images"
+            class="pr-1"
+          />
+          <div class="item1-dis dis1">
+            <h5>Red Tape, Wildcraft..</h5>
+            <h4>Min. 60% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/sunglass/n/b/x/p380gr3pv-one-size-fits-all-fastrack-original-imagpb53afztbytg.jpeg?q=90&crop=false"
+            alt="images"
+            class="pr-2"
+          />
+          <div class="item1-dis dis-2">
+            <h5>FastTrack, Ran-Ban..</h5>
+            <h4>Min 40% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/kzpw2vk0/jewellery-set/j/3/y/na-na-y22-yembon-original-imagbzbce2yzxn27.jpeg?q=90&crop=false"
+            alt=""
+            class="pr-3"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Earrings, Jewellery Sets...</h5>
+            <h4>Flat 70% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/watch/u/w/e/-original-imagswy6c8vzpgmx.jpeg?q=90&crop=false"
+            alt=""
+            class="pr-4"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Armani Exchange, Guess..</h5>
+            <h4>Up to 80% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://www.brandboxlabs.com/images/brands/vishudh/mobile/4-vishudh.jpg"
+            alt="images"
+            class="pr-5"
+          />
+          <div class="item1-dis">
+            <h5>Vishudh & Tokyo Talkies</h5>
+            <h4>Under ₹399</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2023/11/360700878/BI/PJ/QS/9185516/product-jpeg.jpg"
+            alt="images"
+            class="pr-6"
+          />
+          <div class="item1-dis">
+            <h5>DSC & more</h5>
+            <h4>Under ₹899</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2021/7/AR/VC/EC/36086933/product-jpeg.jpg"
+            alt="images"
+            class="pr-7"
+          />
+          <div class="item1-dis" style="margin-top: 7px">
+            <h5>Best Sellers</h5>
+            <h4>Under ₹599</h4>
+          </div>
+        </div>
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/krme93k0/ethnic-set/v/g/2/xxl-geor-lght-parrot-xxl-color-trends-original-imag5df5pbrxtmmz.jpeg?q=20&crop=false"
+            alt="images"
+            class="pr-8"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Kurtas, Sets & more</h5>
+            <h4>Under ₹599</h4>
+          </div>
+        </div>
+        <button class="move-left">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+      </div>
+    </div>
+    <!-- First row -->
+    <div class="menu-items phone-sec">
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/057ba6c2c95f3d22.jpg?q=20"
+          alt="mobile-1"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/81035a28051d094e.jpg?q=20"
+          alt="mobile-2"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/2ad216676e96d294.jpg?q=20"
+          alt="mobile-3"
+        />
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="menu-items phone-sec">
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9926b000d9e06f79.jpg?q=20"
+          alt="Appliance-1"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/3dbceec64ee01bdc.jpg?q=20"
+          alt="Appliance-2"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/6f23fc1a646a9c64.jpg?q=20"
+          alt="Appliance-3"
+        />
+      </div>
+    </div>
+    <!-- Third row -->
+    <div class="menu-items phone-sec">
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/30527c6a71197cda.jpg?q=20"
+          alt="House-Decor-1"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/fe42cb569b6a602a.jpg?q=20"
+          alt="House-Decor-2"
+        />
+      </div>
+      <div class="sec">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/8c847eea35140ed6.jpg?q=20"
+          alt="House-Decor-3"
+        />
+      </div>
+    </div>
+    <!-- sliding menu -->
+    <div class="menu-items">
+      <div class="pro-heading">
+        <h2>Top Deals</h2>
+      </div>
+      <div class="items">
+        <button class="move">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/c/f/l/-original-imagqfwadb7qntrb.jpeg?q=90&crop=false"
+            alt="images"
+            class="pr-1"
+          />
+          <div class="item1-dis dis1">
+            <h5>Red Tape, Wildcraft..</h5>
+            <h4>Min. 60% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/sunglass/n/b/x/p380gr3pv-one-size-fits-all-fastrack-original-imagpb53afztbytg.jpeg?q=90&crop=false"
+            alt="images"
+            class="pr-2"
+          />
+          <div class="item1-dis dis-2">
+            <h5>FastTrack, Ran-Ban..</h5>
+            <h4>Min 40% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/kzpw2vk0/jewellery-set/j/3/y/na-na-y22-yembon-original-imagbzbce2yzxn27.jpeg?q=90&crop=false"
+            alt=""
+            class="pr-3"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Earrings, Jewellery Sets...</h5>
+            <h4>Flat 70% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/watch/u/w/e/-original-imagswy6c8vzpgmx.jpeg?q=90&crop=false"
+            alt=""
+            class="pr-4"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Armani Exchange, Guess..</h5>
+            <h4>Up to 80% off</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://www.brandboxlabs.com/images/brands/vishudh/mobile/4-vishudh.jpg"
+            alt="images"
+            class="pr-5"
+          />
+          <div class="item1-dis">
+            <h5>Vishudh & Tokyo Talkies</h5>
+            <h4>Under ₹399</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2023/11/360700878/BI/PJ/QS/9185516/product-jpeg.jpg"
+            alt="images"
+            class="pr-6"
+          />
+          <div class="item1-dis">
+            <h5>DSC & more</h5>
+            <h4>Under ₹899</h4>
+          </div>
+        </div>
+
+        <div class="item-1">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2021/7/AR/VC/EC/36086933/product-jpeg.jpg"
+            alt="images"
+            class="pr-7"
+          />
+          <div class="item1-dis" style="margin-top: 7px">
+            <h5>Best Sellers</h5>
+            <h4>Under ₹599</h4>
+          </div>
+        </div>
+        <div class="item-1">
+          <img
+            src="https://rukminim2.flixcart.com/image/850/1000/krme93k0/ethnic-set/v/g/2/xxl-geor-lght-parrot-xxl-color-trends-original-imag5df5pbrxtmmz.jpeg?q=20&crop=false"
+            alt="images"
+            class="pr-8"
+          />
+          <div class="item1-dis" style="margin-top: 8px">
+            <h5>Kurtas, Sets & more</h5>
+            <h4>Under ₹599</h4>
+          </div>
+        </div>
+        <button class="move-left">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="../js/design.js"></script>
+  </body>
+</html>

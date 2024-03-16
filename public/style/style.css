@@ -1,0 +1,509 @@
+* {
+  padding: 0;
+  width: 0px;
+  border: border-box;
+  font-family: Arial;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(241, 242, 244);
+  /* display: none; */
+  scrollbar-width: none;
+}
+
+.navbar {
+  height: 65px;
+  background-color: white;
+  width: 100vw;
+  padding-top: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  width: 6em;
+  height: 3rem;
+  padding-top: 0.8em;
+}
+
+.logo {
+  height: 21px;
+  width: 84px;
+  margin-left: 5px;
+}
+
+.logo1 {
+  background-image: url(/images/flipkartlogo.jpg);
+  width: 84px;
+  height: 21px;
+  background-size: cover;
+}
+
+.nav-explore {
+  height: 25px;
+  width: 130px;
+  /* display: inline; */
+}
+.explore {
+  color: #9e9e9e;
+}
+.nav-explore span {
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 700;
+}
+.plus {
+  color: #ffc200;
+}
+
+/* search bar */
+
+.search-bar {
+  height: 40px;
+  width: 42%;
+  background-color: #f0f5ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.search-logo {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: gray;
+}
+
+.search-input {
+  margin-left: 30px;
+  width: 90%;
+  height: 40px;
+  border: transparent;
+  background-color: #f0f5ff;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  font-size: 19px;
+  opacity: 0.6;
+  padding: 0px;
+}
+
+.nav-seller {
+  width: 14%;
+  height: 25px;
+  display: flex;
+}
+
+.seller {
+  width: 100%;
+  height: 25px;
+  margin-left: 30px;
+  font-size: 17px;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  color: grey;
+}
+
+.nav-sign {
+  width: 8%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.signin {
+  width: 100%;
+  margin-left: 30px;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  color: grey;
+  font-size: 17px;
+}
+
+.nav-cart {
+  width: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.cart {
+  margin-left: 30px;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  color: grey;
+  font-size: 17px;
+  width: 100%;
+}
+
+.nav-drop {
+  width: 20px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+/* second nav-bar */
+
+.nav-options {
+  height: 143px;
+  width: 97vw;
+  display: flex;
+  background-color: white;
+  margin: 8px 16px 0px 16px;
+  padding-bottom: 10px;
+}
+
+.option1 {
+  height: 143px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 12px;
+}
+
+.product1 {
+  height: 100px;
+  width: 95px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.img-1 {
+  height: 81px;
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 9px;
+}
+
+.logo-01 {
+  width: 64px;
+  background-image: url(/images/product-1.webp);
+  background-size: cover;
+}
+
+.pro-1-info {
+  padding-left: 10px;
+  font-size: 0.9rem;
+  font-family: Arial, sans-serif;
+  font-weight: 550;
+}
+
+.logo-02 {
+  width: 60px;
+  background-image: url(/images/product-2.webp);
+  background-size: cover;
+}
+
+.logo-03 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/96/96/image/0d75b34f7d8fbcb3.png?q=100");
+  background-size: cover;
+}
+.logo-04 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/flap/96/96/image/69c6589653afdb9a.png?q=100");
+  background-size: cover;
+}
+.logo-05 {
+  width: 80px;
+  background-image: url("https://rukminim1.flixcart.com/flap/96/96/image/ab7e2b022a4587dd.jpg?q=100");
+  background-size: cover;
+}
+.logo-06 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/flap/96/96/image/0ff199d1bd27eb98.png?q=100");
+  background-size: cover;
+}
+.logo-07 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/flap/96/96/image/71050627a56b4693.png?q=100");
+  background-size: cover;
+}
+.logo-08 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/flap/96/96/image/dff3f7adcf3a90c6.png?q=100");
+  background-size: cover;
+}
+.logo-09 {
+  width: 95px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/96/96/image/05d708653beff580.png?q=100");
+}
+
+/* banner */
+
+.banner {
+  height: 205px;
+  width: 97vw;
+  background-color: white;
+  margin: 20px 16px 0px 16px;
+  position: relative;
+}
+
+.banner-img img {
+  height: 205px;
+  width: 97vw;
+  display: none;
+  object-fit: cover;
+  scroll-behavior: smooth;
+}
+
+.banner-img img.displayimage {
+  /* scroll-behavior: smooth; */
+  display: block;
+}
+
+.banner button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 88px;
+  border: none;
+  /* border-radius: 2px; */
+  background-color: white;
+  color: grey;
+  font-size: 1em;
+}
+
+.first-btn {
+  padding-right: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.second-btn {
+  padding-right: 9px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.banner button:last-child {
+  right: 0px;
+}
+
+/* menu */
+
+.menu-items {
+  height: 344px;
+  width: 97vw;
+  margin: 20px 16px 0px 16px;
+  background-color: white;
+}
+
+.pro-heading {
+  width: 50%;
+  margin-left: 23px;
+  padding-top: 1px;
+}
+
+.pro-heading h2 {
+  width: 50%;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02px;
+  font-weight: 600;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  color: #212121;
+}
+
+.items {
+  height: 280px;
+  width: 100%;
+  /* display: flex; */
+  overflow: hidden;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1% auto auto auto auto auto auto auto auto auto;
+  grid-gap: 2px;
+}
+
+.item-1 {
+  height: 243px;
+  width: 220px;
+  text-align: center;
+  border: 0px solid black;
+  margin-left: 24px;
+  border-width: 1.2px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  margin-top: 25px;
+}
+
+.item-1 img {
+  height: 176px;
+  width: 193px;
+  transition: transform 0.2s;
+  /* object-fit: cover; */
+}
+
+.pr-1 {
+  height: 74%;
+  margin-top: 9px;
+  border-radius: 3px;
+  width: 91%;
+}
+
+.pr-2 {
+  height: 74%;
+  margin-top: 9px;
+  border-radius: 3px;
+  width: 90%;
+}
+
+.pr-3 {
+  height: 70%;
+  margin-top: 10px;
+}
+
+.pr-4 {
+  height: 73%;
+  object-fit: cover;
+  margin-top: 9px;
+  width: 84%;
+  border-radius: 3px;
+}
+
+.pr-5 {
+  object-fit: cover;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.pr-6 {
+  height: 74%;
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.pr-7 {
+  height: 72%;
+  margin-top: 8px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.pr-8 {
+  object-fit: contain;
+  margin-top: 7px;
+  border-radius: 3px;
+}
+
+.item-1 img.zoom {
+  transform: scale(105%);
+}
+
+.item1-dis {
+  width: 100%;
+  height: 40px;
+  margin-top: 9px;
+}
+
+.item1-dis h5 {
+  width: 100%;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.01px;
+  font-weight: 500;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+  color: #212121;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.item1-dis h4 {
+  width: 100%;
+  /* margin-top: 9px; */
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  margin-top: 1px;
+}
+
+/* .bu button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 88px;
+  border: none;
+  /* border-radius: 2px; */
+/* background-color: white;
+  color: grey;
+  font-size: 1em;
+} */
+
+.items button {
+  background-color: white;
+  border: 3px solid whitesmoke;
+  background-color: white;
+  color: grey;
+  font-size: 1em;
+}
+
+.move {
+  width: 40px;
+  height: 88px;
+  position: relative;
+  top: 30%;
+  padding-right: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.move-left {
+  float: right;
+  width: 40px;
+  height: 88px;
+  position: relative;
+  top: 30%;
+  padding-right: 9px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* phone-sec */
+
+.phone-sec {
+  height: 216px !important;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 32.2vw 32.2vw auto;
+  /* overflow: hidden; */
+  gap: 3px;
+}
+
+.sec {
+  height: 100%;
+  width: 390px;
+  /* background-color: red; */
+  margin-left: 2px;
+}
+
+.sec img {
+  height: 100%;
+  width: 404px;
+  margin-left: 2px;
+}
